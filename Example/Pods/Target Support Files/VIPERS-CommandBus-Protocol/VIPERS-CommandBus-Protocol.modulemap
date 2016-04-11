@@ -1,0 +1,6 @@
+framework module VIPERS_CommandBus_Protocol {
+  umbrella header "VIPERS-CommandBus-Protocol-umbrella.h"
+
+  export *
+  module * { export * }
+}

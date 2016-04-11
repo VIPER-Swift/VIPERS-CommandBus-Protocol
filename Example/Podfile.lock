@@ -1,0 +1,14 @@
+PODS:
+  - VIPERS-CommandBus-Protocol (0.1.0)
+
+DEPENDENCIES:
+  - VIPERS-CommandBus-Protocol (from `../`)
+
+EXTERNAL SOURCES:
+  VIPERS-CommandBus-Protocol:
+    :path: ../
+
+SPEC CHECKSUMS:
+  VIPERS-CommandBus-Protocol: b50a367587d7665d5d9b7e0c967411894a969f6a
+
+COCOAPODS: 0.39.0

@@ -1,15 +1,26 @@
 # VIPERS-CommandBus-Protocol
 
-[![CI Status](http://img.shields.io/travis/Jan Bartel/VIPERS-CommandBus-Protocol.svg?style=flat)](https://travis-ci.org/Jan Bartel/VIPERS-CommandBus-Protocol)
-[![Version](https://img.shields.io/cocoapods/v/VIPERS-CommandBus-Protocol.svg?style=flat)](http://cocoapods.org/pods/VIPERS-CommandBus-Protocol)
-[![License](https://img.shields.io/cocoapods/l/VIPERS-CommandBus-Protocol.svg?style=flat)](http://cocoapods.org/pods/VIPERS-CommandBus-Protocol)
-[![Platform](https://img.shields.io/cocoapods/p/VIPERS-CommandBus-Protocol.svg?style=flat)](http://cocoapods.org/pods/VIPERS-CommandBus-Protocol)
+Protocols of the command bus / message bus implementation used by VIPERS. These protocols are used to implement the interactor layer in the VIPERS ios application framework.
+
+## What is a command bus ?
+Have a look at this [blog post](http://php-and-symfony.matthiasnoback.nl/2015/01/a-wave-of-command-buses/) (It's example is written in PHP but I think you will accept this challenge)
+
+## What is VIPER
+
+VIPER is an application architecture for mobile app development.
+You can find some explanations here: [Blogpost from objc.io] (https://www.objc.io/issues/13-architecture/viper/)  (It's example is written in OBJ-C but I think you will accept this as your next challenge :-P)
+
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+### CommandBus
+* To create a CommandHandler: Just implement the CommandHandlerProtocol.
+* To use a command bus just use our implementation here: [CommandBus](https://github.com/VIPER-Swift/VIPERS-CommandBus), or create your own
+* To create a command: Just use any object which you think is appropriate and which fullfils swifts Any type 
+
 
 ## Requirements
+iOS 8 is needed !!
 
 ## Installation
 
